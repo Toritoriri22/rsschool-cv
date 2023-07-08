@@ -3,8 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <img class="header__avatar" src="./img/foto/photo.jpg" alt="avatar">
+            <div class="header__info">
+                <h1 class="info__title">Kuligina Victoria</h1>
+                <h2 class="info__subtitle">Junior front-end developer</h2>
+            </div>
+            <ul class="header__contacts">
+                <li class="header__contacts-item">
+                  <h4>Location</h4>
+                  <address>Ufa, Russia</address>
+                </li>
+                <li class="header__contacts-item">
+                  <h4>Phone</h4>
+                  <p>+79193477356</p>
+                </li>
+                <li class="header__contacts-item">
+                  <h4>Email</h4>
+                  <p><a href="mailto:kuligina.vika@bk.ru">kuligina.vika@bk.ru</a></p>
+                </li>
+                <li class="header__contacts-item">
+                    <h4>Discord</h4>
+                    <p>Victoria Kuligina(@toritoriri22)</p>
+                  </li>
+              </ul>
+        </div>
+    </header>
+    <main class="main">
+      <div class="main__container">
+          <section class="main__block _aboutme">
+            <h3>About me</h3>
+            <div class="aboutme__text">
+              <p>I recently got acquainted with the profession of a frontend developer. 
+                I found this work very interesting. I would like to develop in this field and become an advanced developer. 
+                At the moment I am taking various courses and learning new things. 
+                In the future, I would like to work on creative projects in a team.</p>
+            </div>
+          </section>
+          <section class="main__block _skills">
+            <h3>Professional Skills</h3>
+            <ul class="skills__list">
+              <li class="skill">
+                <img class="img-html" src="./img/icons/HTML5_logo_and_wordmark.svg.png" alt="HTML5">
+                <p>HTML5</p>
+              </li>
+              <li class="skill">
+                <img src="./img/icons/css.png" alt="">
+                <p>CSS3</p>
+              </li>
+              <li class="skill">
+                <img src="./img/icons/1280px-Sass_Logo_Color.svg.png" alt="">
+                <p>SASS</p>
+              </li>
+              <li class="skill">
+                <img src="./img/icons/pug.svg" alt="">
+                <p>PUG</p>
+              </li>
+              <li class="skill">
+                <img src="./img/icons/Figma-1-logo.png" alt="">
+                <p>FIGMA</p>
+              </li>
+              <li class="skill">
+                <img src="./img/icons/Git_icon.svg.png" alt="">
+                <p>GIT</p>
+              </li>
+            </ul>
+          </section>
+          <section class="main__block _code">
+            <h3>Code example</h3>
+            <div class="code">
+              <pre>
+        <code>
+          function solution(str) {
+            let result = ''
+            for (let i of str) {
+              result = i + result
+            }
+            return result
+          }
+        </code>
+    </pre>
+            </div>
+          </section>
+          <section class="main__block _education">
+            <h3>Education</h3>
+            <div class="education">
+              <h4>University:</h4>
+              <div class="education__text">
+                <p>Bashkir State University, Faculty of Romano-Germanic Philology,
+                  Foreign Philology (English language and literature).</p>
+              </div>
+            </div>
+            <div class="education">
+              <h4>Courses:</h4>
+              <ul class="education__list">
+                <li class="education__item"><a class="education__link"
+                    href="https://www.udemy.com/">Udemy</a></li>
+                <li class="education__item"><a class="education__link"
+                    href="https://wayup.in/ru/">Way up</a></li>
+                <li class="education__item"><a class="education__link" href="https://ru.hexlet.io/">Hexlet</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="main__block _languages">
+            <h3>Languages</h3>
+            <ul class="languages__list">
+              <li class="language">
+                <h4>English:</h4>
+                <p class="language__text">B2. My studies at the university are connected with English. Due to lack of practice, it is difficult for me to speak the language, there is still a language barrier. 
+                  But I can read books, articles in English, watch movies and TV series in the original, understand native speakers.</p>
+              </li>
+              <li class="language">
+                <h4>Russian:</h4>
+                <p class="language__text">Native</p>
+              </li>
+              <li class="language">
+                <h4>German:</h4>
+                <p class="language__text">A2</p>
+              </li>
+            </ul>
+          </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__nav">
+          <a href="https://rs.school/js/"><img class="img-logo" src="./img/logo/rs_school_js.svg" alt="logo"></a>
+          <a href="https://github.com/Toritoriri22"><img class="img-github" src="./img/logo/Octicons-mark-github.svg" alt="githab"></a>
+        </nav>
+        <div class="footer__text">
+          <p>@Kuligina Victoria 2023</p>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Jost:wght@400;500;700&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+/*font-family: 'Bacasime Antique', serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	/*outline: none;*/
+}
+
+a:focus,
+a:active {
+	/* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 20px;
+    color: #282424;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    background: #fafafa;
+}
+
+.header {
+    width: 100%;
+    min-height: 600px;
+    background-color: #b5b4b4;
+}
+.header__container {
+    position: relative;
+    max-width: 1400px;
+    max-height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.header__avatar{
+    position: absolute;
+    width: 420px;
+    height: 460px;
+    top: 80px;
+    left: 150px;
+    border-radius: 50%;
+    border: #eed0d0 15px solid
+}
+.header__info {
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    width: 600px;
+    height: 300px;
+}
+.info__title {
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+.info__subtitle {
+    position: relative;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.info__subtitle::before {
+    position: absolute;
+    content: '';
+    top: 55px;
+    width: 450px;
+    height: 5px;
+    background-color: #eed0d0;
+}
+
+.header__contacts {
+    position: absolute;
+    top: 365px;
+    left: 700px;
+    width: 450px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__contacts-item {
+    width: 200px;
+    height: 80px;
+}
+
+.header__contacts-item h4 {
+    font-size: 25px;
+    color: #282424;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 10px;
+}
+.header__contacts-item p {
+    font-size: 18px;
+}
+
+.header__contacts-item address {
+    font-size: 18px;
+}
+
+.header__contacts-item a {
+    color: #282424;
+}
+
+.header__contacts-item a:hover {
+    border-bottom: #eed0d0 3px solid;
+}
+
+.main {
+    width: 100%;
+    min-height: 1130px;
+}
+.main__container{
+    position: relative;
+    max-width: 1400px;
+    max-height: 1000px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__block {
+    width: 600px;
+    height: 333px;
+}
+
+.main__block h3 {
+    height: 40px;
+    width: 250px;
+    padding-top: 5px;
+    background-color: #eed0d0;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+}
+
+.aboutme__text {
+    width: 550px;
+    height: 250px;
+    padding-top: 15px;
+
+
+}
+.aboutme__text p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    line-height: 1.2;
+    color: #494747;
+}
+
+.skills__list {
+    width: 550px;
+    height: 250px;
+    padding-top: 15px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.skill img {
+    width: 35px;
+    height: 30px;
+}
+
+.skill p {
+    display: inline-block;
+    padding-top: 4px;
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 400;
+}
+
+.code {
+    width: 350px;
+    height: 250px;
+    margin-left: -70px;
+}
+
+code {
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 400
+}
+
+.education {
+    padding-top: 15px;
+    height: 150px;
+    width: 550px;
+}
+
+.education h4 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 500;
+}
+.education__text p {
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.education__courses {
+    height: 150px;
+    width: 550px;
+}
+
+.education__list {
+    margin-top: 10px;
+}
+
+.education__link {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.education__link:hover {
+    border-bottom: #eed0d0 3px solid;
+}
+
+.languages__list {
+    margin-top: 15px;
+    width: 550px;
+}
+
+.language h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 500;
+}
+
+.language__text {
+
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
+    color: #494747;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    background-color: #b5b4b4;
+}
+
+.footer__container {
+    position: relative;
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+    margin-top: -30px;
+}
+
+.img-github {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.footer__text {
+    margin-top: -94px;
+    margin-left: 870px;
+}
+
+.footer__text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
