@@ -2,10 +2,10 @@ Kuligina Victoria
 ============
 
 -------------------     ----------------------------
-Location:                       Ufa, Russia
-Phone:                          +79193477356
-Discord:                        Victoria Kuligina(@toritoriri22)
-Email:                       kuligina.vika@bk.ru
+Location:                       Ufa, Russia  
+Phone:                          +79193477356  
+Discord:                        Victoria Kuligina(@toritoriri22)  
+Email:                          kuligina.vika@bk.ru  
 -------------------     ----------------------------
 
 About me
